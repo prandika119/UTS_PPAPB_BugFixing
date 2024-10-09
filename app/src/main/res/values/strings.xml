@@ -17,4 +17,9 @@
         <item>November</item>
         <item>Desember</item>
     </array>
+    <array name="kehadiran">
+        <item>Hadir Tepat Waltu</item>
+        <item>Terlambat</item>
+        <item>Izin</item>
+    </array>
 </resources>

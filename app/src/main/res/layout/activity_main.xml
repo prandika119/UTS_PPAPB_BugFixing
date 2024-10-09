@@ -30,16 +30,13 @@
             android:background="@drawable/bg_calendar"
             android:elevation="4dp"
             android:layout_marginTop="20dp">
-
             <DatePicker
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/datepicker"
                 android:calendarViewShown="false"
                 android:datePickerMode="calendar"/>
-
         </LinearLayout>
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,6 +78,7 @@
                 android:background="@drawable/bg_spinner"
                 android:paddingLeft="30dp"
                 android:hint="Keterangan"
+                android:visibility="invisible"
                 />
 
         </LinearLayout>
